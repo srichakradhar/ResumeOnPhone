@@ -1,5 +1,5 @@
 # ResumeOnPhone
-Create you resume on your phone!
+Create your resume on your phone!
 
 ![Main Activity](http://i.imgur.com/PyQFKsC.png)
 
