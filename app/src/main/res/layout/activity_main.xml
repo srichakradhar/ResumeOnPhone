@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/contact_form_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/resume_builder"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="40sp"
+            android:typeface="serif" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:hint="@string/name"
+            android:inputType="textPersonName"
+            android:textColor="@color/dark_grey" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/dark_grey" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:hint="@string/phone"
+            android:inputType="phone"
+            android:textColor="@color/dark_grey" />
+
+        <EditText
+            android:id="@+id/objective"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:breakStrategy="balanced"
+            android:fitsSystemWindows="true"
+            android:gravity="top"
+            android:hint="@string/objective"
+            android:inputType="textMultiLine"
+            android:padding="5dp"
+            android:singleLine="false"
+            android:textColor="@color/dark_grey" />
+
+        <EditText
+            android:id="@+id/experience"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:breakStrategy="balanced"
+            android:fitsSystemWindows="true"
+            android:gravity="top"
+            android:hint="@string/work_experience"
+            android:inputType="textMultiLine"
+            android:padding="5dp"
+            android:singleLine="false"
+            android:textColor="@color/dark_grey" />
+
+        <EditText
+            android:id="@+id/college"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:hint="@string/college"
+            android:inputType="text"
+            android:textColor="@color/dark_grey" />
+
+        <EditText
+            android:id="@+id/degree"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:hint="@string/degree"
+            android:inputType="text"
+            android:textColor="@color/dark_grey" />
+
+        <EditText
+            android:id="@+id/gpa"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:hint="@string/GPA"
+            android:inputType="numberDecimal"
+            android:textColor="@color/dark_grey" />
+
+        <EditText
+            android:id="@+id/graduation_date"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:hint="@string/graduation_date"
+            android:inputType="date"
+            android:textColor="@color/dark_grey" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#FCB431"
+            android:elevation="4dp"
+            android:paddingLeft="70dp"
+            android:paddingRight="70dp"
+            android:text="@string/submit"
+            android:textColor="#622F00"
+            android:textSize="20sp" />
+    </LinearLayout>
+</ScrollView>
